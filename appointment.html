@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Book an appointment</title>
+<link rel = "icon" href= "logo.png" 
+type= "image/x-icon">
+<style>
+body{
+margin: 0;
+padding: 0;
+background: url(lback.jpeg);
+background-size: cover;
+background-position: center;
+font-size: 16px;
+color: #777;
+font-family: sans-serif;
+font-weight: 300;
+}
+
+#login-box{
+position: relative;
+margin: 5% auto;
+height: 400px;
+width: 600px;
+background: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box{
+position: absolute;
+top: 0;
+left: 0;
+box-sizing: border-box;
+padding: 40px;
+width: 300px;
+height: 400px;    
+}
+
+h1{
+margin: 0 0 20px 0;
+font-weight: 300;
+font-size: 28px;
+}
+
+input[type="text"]
+{
+display: block;
+box-sizing: border-box;
+margin-bottom: 20px;
+padding: 4px;
+width: 220px;
+height: 32px;
+border: none;
+outline: none;
+border-bottom: 1px solid #aaa;
+font-family: sans-serif;
+font-weight: 400;
+font-size: 15px;
+}
+
+input[type="button"]
+{
+margin-bottom: 28px;
+width: 120px;
+height: 32px;
+background: #f44336;
+border: none;
+border-radius: 2px;
+color: #fff;
+font-family: sans-serif;
+font-weight: 500;
+text-transform: uppercase;
+cursor: pointer;  
+}
+
+input[type="button"]:hover
+{
+background: #ff5722;
+}
+
+.right-box{
+position: absolute;
+top: 0;
+right: 0;
+box-sizing: border-box;
+padding: 40px;
+width: 300px;
+height: 400px;
+}
+
+.or{
+position: absolute;
+top: 180px;
+left: 280px;
+width: 40px;
+height: 40px;
+background: #efefef;
+border-radius: 50%;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+line-height: 40px;
+text-align: center;
+}
+
+.right-box .subscribe{
+display: block;
+margin-bottom: 40px;
+font-size: 28px;
+color: #fff;
+text-align: center;
+text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.official{
+margin-bottom: 20px;
+width: 220px;
+height: 36px;
+border: none;
+border-radius: 2px;
+color: #fff;
+font-family: sans-serif;
+font-weight: 500;
+cursor: pointer;
+}
+
+.newsletter{
+background: #32508e;
+}
+.planner{
+background: #55acee;
+}
+</style>
+</head>
+<body>
+<div id="login-box">
+<div class="left-box">
+<h1>Book an appointment.</h1>
+<input type="text" name="name" placeholder="Enter your name"/>
+<input type="text" name="email" placeholder="Enter your email"/>
+<input type="text" name="phone" placeholder="Enter your phone no."/>
+<input type="text" name="event" placeholder="Event"/>
+
+<a href="404.html">
+<input type="button" name="submit-button" value="SUBMIT"/>
+</a>
+
+</div>
+<div class="right-box">
+<span class="subscribe">Subscribe<br/>to our</span>
+
+<button class="official newsletter">NEWSLETTER</button>    
+<button class="official planner">PLANNER</button> 
+</div>
+
+</body>    
+</html>
